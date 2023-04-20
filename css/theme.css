@@ -10046,14 +10046,14 @@ font-family: Helvetica, sans-serif, Arial;
     background-color: #52dc10;
 }
 .bg-i{
-    background-image: url(../img/veneunidos.png);
-    background-size: cover;
+    background: url(../img/veneunidos.png) no-repeat;
+    background-size: 100% 100%;
 }
 .green{
     color: #52dc10;
 }
 .anch{
-    width: 180px;
+    width: 210px;
 }
 .bg-n{
     background-color: #000;
@@ -10182,7 +10182,33 @@ margin:50px;
         .blur{
             filter: blur(8px);
     }
-.bg-blk{
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 20%;
+@media screen and (max-width: 960px){
+    .caja1{
+        background: url(../img/caja1t.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .caja2{
+        background: url(../img/caja2t.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .caja3{
+        background: url(../img/caja3t.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .caja4{
+        background: url(../img/caja4t.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .caja5{
+        background: url(../img/caja5t.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .caja6{
+        background: url(../img/caja6t.png) no-repeat;
+        background-size: 100% 100%;
+    }
+    .caja7{
+        background: url(../img/caja7t.png) no-repeat;
+        background-size: 100% 100%;
+    }
 }
